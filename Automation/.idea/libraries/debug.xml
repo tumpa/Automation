@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_7c9104e9571fed2e28795ca7b5a785a6a5ba567c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_2ccdda1c823e03828943569a98673406625013ba.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_f17aec52df4837c1007686e1f620e3763d5b61dd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/com.github.lecho-hellocharts-library-1.5.8_405392d58c236a340fb419abf9619af397efa490.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/debug_1a4a13e72fa5f81e74c6dd018509c18b906ac617.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_a56e9dd4c90bf7079c075061d78cff57c1577e98.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_f708cada74d72f4b83f8d61eae9a70fcc8b447bb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_6334f80bbee94b3eddbac3c2060e18bb1de325aa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_ccb24f794229dffbc8087acee79fb183d7841656.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_033db98c2ba8ae46167b3617613d1be6e500c1d4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

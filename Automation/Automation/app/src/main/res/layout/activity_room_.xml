@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/room"
+    tools:context="com.example.kayhan.automation.Room_Activity">
+
+
+
+
+    <TextView android:text="Fan Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fan_textView" />
+    <ImageButton
+        android:id="@+id/light1_imageButton"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/light_left_off"
+        android:layout_width="100dp"
+        android:layout_height="205dp" />
+    <ImageView
+        android:id="@+id/spotlight_left"
+        android:layout_below="@+id/light1_imageButton"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_width="200dp"
+        android:background="@drawable/spotlight_left"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageButton
+        android:id="@+id/fan"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fan"
+        />
+    <LinearLayout
+        android:id="@+id/level"
+        android:layout_below="@+id/fan"
+        android:orientation="horizontal"
+        android:layout_alignLeft="@+id/fan"
+        android:layout_alignRight="@+id/fan"
+        android:onClick="onLevelClicked"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/fan_low"
+            android:layout_width="0px"
+            android:layout_weight="2"
+            android:text="-"
+            android:background="@drawable/speed_button_drawable"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/level1"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onLevelClicked"
+            android:src="@drawable/speed1"
+            />
+        <ImageView
+            android:id="@+id/level2"
+            android:layout_width="0px"
+            android:onClick="onLevelClicked"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/speed2"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/level3"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:onClick="onLevelClicked"
+
+            android:layout_weight="1"
+            android:src="@drawable/speed3"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/level4"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/speed4"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/level5"
+            android:layout_width="0px"
+            android:onClick="onLevelClicked"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/speed5"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/level6"
+            android:layout_width="0px"
+            android:onClick="onLevelClicked"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/speed6"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/level7"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:onClick="onLevelClicked"
+
+            android:layout_weight="1"
+            android:src="@drawable/speed7"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/level8"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/speed8"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/level9"
+            android:layout_width="0px"
+            android:onClick="onLevelClicked"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/speed9"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/fan_high"
+            android:layout_width="0px"
+            android:layout_weight="2"
+            android:padding="0dp"
+            android:background="@drawable/speed_button_drawable"
+            android:text="+"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/light2_imageButton"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/light_right_off"
+        android:layout_alignParentRight="true"
+        android:layout_width="100dp"
+        android:layout_height="250dp" />
+
+    <ImageView
+
+        android:layout_width="200dp"
+        android:background="@drawable/spotlight_right"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/spotlight_right"
+        android:layout_below="@+id/fan"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ListView
+        android:id="@+id/listView"
+        android:background="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/showList_button"
+        android:visibility="gone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+
+    </ListView>
+    <Button
+        android:id="@+id/showList_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Show List"
+
+        android:onClick="showListOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/discover_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Discover"
+        android:onClick="discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

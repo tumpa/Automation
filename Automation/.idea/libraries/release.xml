@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="release">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-22.1.1_d0a5ed6a5d588e1f18ee411ef3fdfcf2f3c0fd0d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/release/internal_impl-22.1.1_6f64c4bf32ddddbaf2757d9fb99f5d673f5ae116.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-22.1.1_84db2d650c7220c42c0e29681df750d4c1381039.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/release/release_098c9dabc22e5ab85532715508343e809c52128f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Automation/app/build/intermediates/pre-dexed/release/support-annotations-22.1.1_5f067c0c67e164a91a9c1ef0c24b71cf8098d999.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

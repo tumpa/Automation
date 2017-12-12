@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Automation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search_">Search_Activity</string>
+    <string name="title_activity_room_">Room_Activity</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_home_navigation">HomeNavigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_graph_chart">GraphChart</string>
+</resources>
